@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const swiper = new Swiper('.swiper',{
+            loop:true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable:true
+            },
+            navigation: {
+                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-button-next'
+            },
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter:true;
+            }
+
+        })
+    </script>
+</body>
+</html>
